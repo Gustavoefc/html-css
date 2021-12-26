@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #26ff43;
+    font-weight: 600;
+}
+
+
+@media (min-width: 700px) {
+    main {
+        margin: 0px 120px 0px 120px;
+    }}
+
+
+    p {
+        text-align: justify;
+        text-indent: 15px;
+    }
+
+    .bugdroid {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 600px;
+    }
+
+    @media (min-width: 700px) { header {
+        background-image: linear-gradient(to bottom, #00f81f, #00BF58, #197023);
+        width: auto;
+        height: 129px;
+    } }
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: white;
+        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.438);
+
+    }
+
+    p.p1 {
+        text-align: center;
+        color: white;
+        font-weight: bold
+    }
+
+    nav {
+        margin-top: 15px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    .video {
+        background-color: #008d3b;
+        border-radius: 0%;
+        margin: 0%;
+    }
+
+    nav>a {
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+    }
+
+    nav>a:hover {
+        text-decoration: underline;
+        background-color: #1b8500;
+    }
+
+    section {
+        background-color: white;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+
+        border-radius: 1em;
+    }
+
+    section>a {
+        color: #005a27;
+    }
+
+    h2 {
+        color: #005a27;
+        font-family: 'idroid', sans-serif;
+    }
+
+    h3 {
+        color: #005a27;
+        font-family: 'idroid', sans-serif;
+        background-color: #57ffa696;
+        background-image: linear-gradient(to right, #05ff2771, white);
+    }
+
+    .links {
+        color: #005a27;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+
+
+    strong {
+        color: #005a27;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+
+    .ttabela {
+        color: #000000;
+        font-weight: bold;
+        background-color: #6fffb7af;
+        border-radius: 15px;
+        padding: 0px;
+    }
+
+    li {
+        text-decoration: underline;
+    }
+
+    footer {
+        background-color: #257A2F;
+        color: white;
+        text-align: center;
+        font-weight: normal;
+    }
+
+    .titulo4 {
+        background-color: #00a560;
+        color: white;
+        margin-top: 5px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+        margin-left: 0px;
+
+        padding-top: 25px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+
+
+    .foot {
+        color: white;
+    }

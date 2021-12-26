@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .carai {
+            background-color: rgba(163, 255, 163, 0.562);
+            color: rgb(255, 0, 0);
+        }
+        
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rosybrown;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+
+
+        .carai::after {
+            content: ' [porra]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+        .carai::before {
+        content: '[carai]';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://macumbaonline.com" target="_blank" rel="external">MacumbaOnline</a></li>
+        <li><a href="https://kbyteshop.com" class="carai">Seu Zé Store</a></li>
+        <li><a href="https://www.youtube.com/watch?v=OVFdQzbSb3Q">Home lasmina</a></li>
+    </ul>
+    
+</body>
+</html>
